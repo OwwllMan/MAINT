@@ -1,3 +1,5 @@
+/* GENERAL */
+
 *
 {
     margin:0;
@@ -5,17 +7,22 @@
     font-family: 'Oswald', sans-serif;
 }
 
+.container
+{
+    width:80%;
+    margin:auto;
+}
+
+.hidden
+{
+    display:none;
+}
 
 body    
 {
     background-image: url(IMG/background.jpg);
     background-position:right;
     z-index:99;
-}
-
-.hidden
-{
-    display:none;
 }
 
 .body
@@ -31,16 +38,10 @@ body
     margin:auto;
 }
 
-.container
-{
-    width:80%;
-    margin:auto;
-}
-
 .body-maintitle
 {
     text-align:center;
-    font-size:40px;
+    font-size:50px;
     color:White;
     font-family: 'Oswald', sans-serif;
     text-transform:uppercase;
@@ -57,4 +58,27 @@ body
     color:white;
     font-size:25px;
     margin-left:5px;
+}
+
+/* SMARTPHONE */
+
+@media(max-width:767px)
+{
+    
+.body-maintitle
+{
+    font-size:70px;
+}
+    
+.body-logo
+{
+    height:auto;
+    width:250px;
+}
+    
+.body-main-snlink
+{
+    font-size:40px;
+}
+      
 }
