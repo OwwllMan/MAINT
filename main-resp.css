@@ -1,0 +1,22 @@
+/* SMARTPHONE */
+
+@media(max-width:767px)
+{
+   
+.body-maintitle
+{
+    font-size:70px;
+}
+    
+.body-logo
+{
+    height:auto;
+    width:250px;
+}
+    
+.body-main-snlink
+{
+    font-size:40px;
+}
+      
+} 

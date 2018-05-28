@@ -1,4 +1,4 @@
-/* GENERAL */
+@import url('https://fonts.googleapis.com/css?family=Oswald');
 
 *
 {
@@ -7,22 +7,17 @@
     font-family: 'Oswald', sans-serif;
 }
 
-.container
-{
-    width:80%;
-    margin:auto;
-}
-
-.hidden
-{
-    display:none;
-}
 
 body    
 {
     background-image: url(IMG/background.jpg);
     background-position:right;
     z-index:99;
+}
+
+.hidden
+{
+    display:none;
 }
 
 .body
@@ -38,10 +33,16 @@ body
     margin:auto;
 }
 
+.container
+{
+    width:80%;
+    margin:auto;
+}
+
 .body-maintitle
 {
     text-align:center;
-    font-size:50px;
+    font-size:40px;
     color:White;
     font-family: 'Oswald', sans-serif;
     text-transform:uppercase;
@@ -58,27 +59,4 @@ body
     color:white;
     font-size:25px;
     margin-left:5px;
-}
-
-/* SMARTPHONE */
-
-@media(max-width:767px)
-{
-    
-.body-maintitle
-{
-    font-size:70px;
-}
-    
-.body-logo
-{
-    height:auto;
-    width:250px;
-}
-    
-.body-main-snlink
-{
-    font-size:40px;
-}
-      
 }
